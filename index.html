@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emmanuel Onasoga | Business Analyst</title>
+<meta name="description" content="Emmanuel Onasoga is a Business Analyst specialising in requirements gathering, process improvement and data-driven decision making. Based in the UK.">
+<meta name="author" content="Emmanuel Olusegun Onasoga">
+<meta name="theme-color" content="#0f6b7a">
+<meta property="og:title" content="Emmanuel Onasoga | Business Analyst">
+<meta property="og:description" content="I turn business problems into smarter solutions.">
+<meta property="og:type" content="website">
+<!-- After deploying, change this to your full URL, e.g. https://emmysegz.github.io/business-analyst-portfolio/assets/images/profile.jpg -->
+<meta property="og:image" content="assets/images/profile.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Emmanuel Onasoga | Business Analyst">
+<meta name="twitter:description" content="I turn business problems into smarter solutions.">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=Newsreader:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main">
+ <a class="brand" href="#home">Emmanuel Onasoga</a>
+ <div class="links" id="links">
+  <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  <a data-resume href="assets/documents/resume.pdf" download>Resume</a>
+  <a data-linkedin href="#" target="_blank" rel="noopener">LinkedIn</a><a data-github href="#" target="_blank" rel="noopener">GitHub</a>
+ </div>
+ <span><button class="icon-btn" id="theme" aria-label="Switch colour theme">◐</button>
+ <button class="icon-btn" id="menu" aria-label="Open menu" aria-expanded="false" aria-controls="links">☰</button></span>
+</nav></div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+ <div>
+  <h1 data-bind="name">Emmanuel Olusegun Onasoga</h1>
+  <p class="role" data-bind="title"></p>
+  <p><strong data-bind="tagline"></strong>. I gather and document requirements, map processes, find root causes and turn findings into clear recommendations that help teams decide.</p>
+  <div class="cta"><a class="btn" href="#projects">View projects</a><a class="btn ghost" data-resume href="assets/documents/resume.pdf" download>Download CV</a></div>
+  <div class="social"><a data-linkedin href="#" target="_blank" rel="noopener">LinkedIn</a><a data-github href="#" target="_blank" rel="noopener">GitHub</a></div>
+  <div class="stat"><div><b>6+</b>years of experience</div><div><b>United Kingdom</b>based</div></div>
+ </div>
+ <img class="photo" src="assets/images/profile.jpg" alt="Portrait of Emmanuel Onasoga in a dark suit and tie" width="400" height="500">
+</div></section>
+
+<section id="about" class="about"><div class="wrap reveal">
+ <h2>About</h2>
+ <p>Results-driven Business Analyst with experience across business analysis, operations, analytics and process improvement. I turn complex business needs and data into insights and practical solutions.</p>
+ <p>I am strongest in requirements gathering, stakeholder management, process optimisation and data-driven decision making. My focus is improving efficiency, reducing risk and improving customer experience.</p>
+ <p>My approach: define the problem with stakeholders, map how work happens today, find root causes with evidence, then document requirements and a to-be process the business can act on.</p>
+ <!-- Add a longer bio here if you want one -->
+</div></section>
+
+<section id="experience"><div class="wrap reveal">
+ <h2>Experience</h2><p class="lead">Roles where I analysed problems, worked with stakeholders and supported improvement.</p>
+ <div class="timeline" id="exp"></div>
+</div></section>
+
+<section id="skills"><div class="wrap reveal">
+ <h2>Core competencies</h2><p class="lead">Skills I use day to day.</p>
+ <div class="skills" id="skillGrid"></div>
+</div></section>
+
+<section id="projects"><div class="wrap reveal">
+ <h2>Projects</h2><p class="lead">Business problems I have analysed, and what I recommended.</p>
+ <div id="projGrid"></div>
+</div></section>
+
+<section id="contact"><div class="wrap contact-grid reveal">
+ <div>
+  <h2>Contact</h2><p class="lead">Open to Business Analyst opportunities. Send a message or reach me directly.</p>
+  <p><a data-email href="#"></a></p><p><a data-linkedin href="#" target="_blank" rel="noopener">LinkedIn</a><br><a data-github href="#" target="_blank" rel="noopener">GitHub</a></p>
+  <p><a class="btn" data-resume href="assets/documents/resume.pdf" download>Download CV</a></p>
+ </div>
+ <form id="form" method="POST" action="https://formspree.io/f/mqpeeykw" novalidate>
+  <div><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
+  <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+  <div><label for="subject">Subject</label><input id="subject" name="_subject" required></div>
+  <div><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
+  <button class="btn" id="send" type="submit">Send message</button>
+  <p id="status" role="status" aria-live="polite"></p>
+ </form>
+</div></section>
+</main>
+
+<dialog id="cs" aria-label="Case study"></dialog>
+<footer><div class="wrap">© <span id="yr"></span> Emmanuel Olusegun Onasoga</div></footer>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/script.js"></script>
+</body></html>
