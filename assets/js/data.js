@@ -33,7 +33,8 @@ const portfolioData = {
   projects: [
     { id:"brewflow", title:"BrewFlow – Brewery Production & Demand Management Process Improvement",
       category:"Business analysis / Process improvement",
-      image:"assets/images/project-01.png",
+      image:"assets/images/project-01.jpg",
+      imageAlt:"Glass bottles moving under the filling nozzles of a brewery bottling line",
       short:"Identifies operational inefficiencies at Budweiser Brewing Group UK and designs an improved end-to-end production and demand management process.",
       tools:["Microsoft PowerPoint","Microsoft Word","Process mapping tools","BA frameworks"],
       skills:["Fishbone analysis","SWOT","AS-IS / TO-BE mapping","Gap analysis","BRD","Stakeholder analysis"],

@@ -12,7 +12,7 @@ $('#exp').innerHTML = d.experience.map(j => `<article class="job"><h3>${esc(j.ro
  ${j.tools ? `<p class="meta">Tools: ${esc(j.tools)}</p>` : ''}</article>`).join('');
 $('#skillGrid').innerHTML = Object.entries(d.skills).map(([k, v]) => `<div class="card"><h3>${esc(k)}</h3><ul class="tags">${li(v)}</ul></div>`).join('');
 $('#projGrid').innerHTML = d.projects.map(p => `<article class="card proj-card">
- <div class="thumb"><img src="${p.image}" alt="${esc(p.title)} process map" loading="lazy" onerror="this.replaceWith('Add your project image at ${p.image}')"></div>
+ <div class="thumb"><img src="${p.image}" alt="${esc(p.imageAlt||p.title)}" loading="lazy" onerror="this.replaceWith('Add your project image at ${p.image}')"></div>
  <div class="proj-body"><span class="cat">${esc(p.category)}</span><h3>${esc(p.title)}</h3><p>${esc(p.short)}</p>
  <h4>Tools</h4><ul class="tags">${li(p.tools)}</ul><h4>Skills demonstrated</h4><ul class="tags">${li(p.skills)}</ul>
  <p><button class="btn" data-id="${p.id}">View case study</button></p></div></article>`).join('');

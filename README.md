@@ -15,7 +15,7 @@ Most content is in **`assets/js/data.js`**: name, title, tagline, email, LinkedI
 The About text, hero intro sentence and "6+ years" figure are in `index.html`.
 
 ## Images, resume, projects
-- Images go in `assets/images/`. Profile photo: `profile.jpg`. First project image: `project-01.png` (save your BrewFlow process map with that name).
+- Images go in `assets/images/`. Profile photo: `profile.jpg`. First project image: `project-01.jpg` (save your BrewFlow process map with that name).
 - Resume goes in `assets/documents/` as `resume.pdf` (replace the file to update).
 - Add a project: copy one project block in `data.js`, change the `id` and the text. A "View BRD" button appears when you fill in `document`, e.g. `assets/documents/BrewSync_BRD.pdf`.
 
