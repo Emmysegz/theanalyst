@@ -5,7 +5,6 @@ document.querySelectorAll('[data-resume]').forEach(e => e.href = d.resume);
 document.querySelectorAll('[data-linkedin]').forEach(e => e.href = d.linkedin);
 document.querySelectorAll('[data-github]').forEach(e => e.href = d.github);
 document.querySelectorAll('[data-email]').forEach(e => { e.href = 'mailto:' + d.email; e.textContent = d.email; });
-$('#track').innerHTML = Array(8).fill(`<span>${esc(d.tagline)}</span>`).join('');
 $('#form').action = d.formspreeEndpoint; $('#yr').textContent = new Date().getFullYear();
 
 $('#exp').innerHTML = d.experience.map(j => `<article class="job"><h3>${esc(j.role)}, ${esc(j.company)}</h3>
